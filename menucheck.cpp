@@ -244,7 +244,7 @@ int main(int argc,char **argv)
 	stp_set_string_parameter(vars,"PageSize","A4");
 	check("stp_set_string_parameter()");
 
-	int l,r,t,b;
+	stp_dimension_t l,r,t,b;
 	stp_get_imageable_area(vars, &l, &r, &b, &t);
 	check("stp_get_imageable_area()");
 
