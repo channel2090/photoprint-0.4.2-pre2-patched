@@ -1,0 +1,146 @@
+make  all-recursive
+make[1]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2'
+Making all in po
+make[2]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/po'
+make[2]: No se hace nada para 'all'.
+make[2]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/po'
+Making all in support
+make[2]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/support'
+make[2]: No se hace nada para 'all'.
+make[2]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/support'
+Making all in imagesource
+make[2]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/imagesource'
+make[2]: No se hace nada para 'all'.
+make[2]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/imagesource'
+Making all in imageutils
+make[2]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/imageutils'
+make[2]: No se hace nada para 'all'.
+make[2]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/imageutils'
+Making all in miscwidgets
+make[2]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/miscwidgets'
+make  all-am
+make[3]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/miscwidgets'
+make[3]: No se hace nada para 'all-am'.
+make[3]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/miscwidgets'
+make[2]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/miscwidgets'
+Making all in stpui_widgets
+make[2]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/stpui_widgets'
+make[2]: No se hace nada para 'all'.
+make[2]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/stpui_widgets'
+Making all in stp_support
+make[2]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/stp_support'
+make[2]: No se hace nada para 'all'.
+make[2]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/stp_support'
+Making all in gp_cppsupport
+make[2]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/gp_cppsupport'
+make[2]: No se hace nada para 'all'.
+make[2]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/gp_cppsupport'
+Making all in pixbufthumbnail
+make[2]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/pixbufthumbnail'
+make[2]: No se hace nada para 'all'.
+make[2]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/pixbufthumbnail'
+Making all in splashscreen
+make[2]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/splashscreen'
+make  all-am
+make[3]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/splashscreen'
+make[3]: No se hace nada para 'all-am'.
+make[3]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/splashscreen'
+make[2]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/splashscreen'
+Making all in profilemanager
+make[2]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/profilemanager'
+make[2]: No se hace nada para 'all'.
+make[2]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/profilemanager'
+Making all in effects
+make[2]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/effects'
+make  all-am
+make[3]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/effects'
+make[3]: No se hace nada para 'all-am'.
+make[3]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/effects'
+make[2]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/effects'
+Making all in borders
+make[2]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/borders'
+make[2]: No se hace nada para 'all'.
+make[2]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/borders'
+Making all in shortcuts
+make[2]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/shortcuts'
+make[2]: No se hace nada para 'all'.
+make[2]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2/shortcuts'
+make[2]: se entra en el directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2'
+g++ -DHAVE_CONFIG_H -I.    -DLOCALEDIR=\"/usr/local/share/locale\" -Wall -I./support/ -I./miscwidgets -I./imagesource/ -I./splashscreen -I./profilemanager -I./effects   -I/usr/include/gtk-2.0 -I/usr/lib/x86_64-linux-gnu/gtk-2.0/include -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/libpng16 -I/usr/include/libmount -I/usr/include/blkid -I/usr/include/fribidi -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/gdk-pixbuf-2.0 -I/usr/include/x86_64-linux-gnu -I/usr/include/webp -I/usr/include/atk-1.0 -pthread  -g -O2 -MT photoprint.o -MD -MP -MF .deps/photoprint.Tpo -c -o photoprint.o photoprint.cpp
+In file included from /usr/include/gtk-2.0/gtk/gtkobject.h:37,
+                 from /usr/include/gtk-2.0/gtk/gtkwidget.h:36,
+                 from /usr/include/gtk-2.0/gtk/gtkcontainer.h:35,
+                 from /usr/include/gtk-2.0/gtk/gtkbin.h:35,
+                 from /usr/include/gtk-2.0/gtk/gtkwindow.h:36,
+                 from /usr/include/gtk-2.0/gtk/gtkdialog.h:35,
+                 from /usr/include/gtk-2.0/gtk/gtkaboutdialog.h:32,
+                 from /usr/include/gtk-2.0/gtk/gtk.h:33,
+                 from photoprint.cpp:15:
+/usr/include/gtk-2.0/gtk/gtktypeutils.h:236:64: warning: ‘GTypeDebugFlags’ is deprecated [-Wdeprecated-declarations]
+  236 | void            gtk_type_init   (GTypeDebugFlags    debug_flags);
+      |                                                                ^
+In file included from /usr/include/glib-2.0/gobject/gobject.h:26,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:31,
+                 from /usr/include/glib-2.0/glib-object.h:24,
+                 from /usr/include/glib-2.0/gio/gioenums.h:30,
+                 from /usr/include/glib-2.0/gio/giotypes.h:30,
+                 from /usr/include/glib-2.0/gio/gio.h:28,
+                 from /usr/include/gtk-2.0/gdk/gdkapplaunchcontext.h:30,
+                 from /usr/include/gtk-2.0/gdk/gdk.h:32,
+                 from /usr/include/gtk-2.0/gtk/gtk.h:32:
+/usr/include/glib-2.0/gobject/gtype.h:731:3: note: declared here
+  731 | } GTypeDebugFlags GOBJECT_DEPRECATED_TYPE_IN_2_36;
+      |   ^~~~~~~~~~~~~~~
+In file included from /usr/include/gtk-2.0/gtk/gtktoolitem.h:31,
+                 from /usr/include/gtk-2.0/gtk/gtktoolbutton.h:30,
+                 from /usr/include/gtk-2.0/gtk/gtkmenutoolbutton.h:30,
+                 from /usr/include/gtk-2.0/gtk/gtk.h:126:
+/usr/include/gtk-2.0/gtk/gtktooltips.h:73:12: warning: ‘GTimeVal’ is deprecated: Use 'GDateTime' instead [-Wdeprecated-declarations]
+   73 |   GTimeVal last_popdown;
+      |            ^~~~~~~~~~~~
+In file included from /usr/include/glib-2.0/glib/galloca.h:34,
+                 from /usr/include/glib-2.0/glib.h:32,
+                 from /usr/include/glib-2.0/gobject/gbinding.h:30:
+/usr/include/glib-2.0/glib/gtypes.h:578:26: note: declared here
+  578 | typedef struct _GTimeVal GTimeVal GLIB_DEPRECATED_TYPE_IN_2_62_FOR(GDateTime);
+      |                          ^~~~~~~~
+In file included from photoprint.cpp:22:
+support/configdb.h:167:22: warning: ‘virtual bool ConfigFile::SaveConfigFile(const char*)’ was hidden [-Woverloaded-virtual=]
+  167 |         virtual bool SaveConfigFile(const char *inifile);
+      |                      ^~~~~~~~~~~~~~
+In file included from photoprint.cpp:23:
+photoprint_state.h:26:14: note:   by ‘bool PhotoPrint_State::SaveConfigFile()’
+   26 |         bool SaveConfigFile();
+      |              ^~~~~~~~~~~~~~
+support/configdb.h:166:22: warning: ‘virtual bool ConfigFile::ParseConfigFile(const char*)’ was hidden [-Woverloaded-virtual=]
+  166 |         virtual bool ParseConfigFile(const char *inifile);
+      |                      ^~~~~~~~~~~~~~~
+photoprint_state.h:20:14: note:   by ‘void PhotoPrint_State::ParseConfigFile()’
+   20 |         void ParseConfigFile();
+      |              ^~~~~~~~~~~~~~~
+photoprint.cpp: In function ‘int main(int, char**)’:
+photoprint.cpp:123:36: warning: ‘void g_type_init()’ is deprecated [-Wdeprecated-declarations]
+  123 |                         g_type_init();
+      |                         ~~~~~~~~~~~^~
+/usr/include/glib-2.0/gobject/gtype.h:737:23: note: declared here
+  737 | void                  g_type_init                    (void);
+      |                       ^~~~~~~~~~~
+In file included from /usr/include/glib-2.0/gobject/gobject.h:30:
+/usr/include/glib-2.0/gobject/gclosure.h:73:57: error: overloaded function with no contextual type information
+   73 | #define G_CALLBACK(f)                    ((GCallback) (f))
+      |                                                         ^
+/usr/include/glib-2.0/gobject/gsignal.h:519:60: note: in definition of macro ‘g_signal_connect’
+  519 |     g_signal_connect_data ((instance), (detailed_signal), (c_handler), (data), NULL, (GConnectFlags) 0)
+      |                                                            ^~~~~~~~~
+photoprint.cpp:190:45: note: in expansion of macro ‘G_CALLBACK’
+  190 |                                             G_CALLBACK (destroy), NULL);
+      |                                             ^~~~~~~~~~
+photoprint.cpp: At global scope:
+photoprint.cpp:93:13: warning: ‘void destroy(GtkWidget*, gpointer)’ defined but not used [-Wunused-function]
+   93 | static void destroy( GtkWidget *widget,
+      |             ^~~~~~~
+make[2]: *** [Makefile:856: photoprint.o] Error 1
+make[2]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2'
+make[1]: *** [Makefile:934: all-recursive] Error 1
+make[1]: se sale del directorio '/home/channel/photoprint-docker/photoprint-0.4.2-pre2'
+make: *** [Makefile:677: all] Error 2

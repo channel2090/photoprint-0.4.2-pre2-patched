@@ -1,0 +1,29 @@
+2026-03-08  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* m4/gettext.m4: Upgrade to gettext-0.21.
+	* m4/host-cpu-c-abi.m4: New file, from gettext-0.21.
+	* m4/iconv.m4: Upgrade to gettext-0.21.
+	* m4/intlmacosx.m4: Upgrade to gettext-0.21.
+	* m4/lib-ld.m4: Upgrade to gettext-0.21.
+	* m4/lib-link.m4: Upgrade to gettext-0.21.
+	* m4/lib-prefix.m4: Upgrade to gettext-0.21.
+	* m4/nls.m4: Upgrade to gettext-0.21.
+	* m4/po.m4: Upgrade to gettext-0.21.
+	* m4/progtest.m4: Upgrade to gettext-0.21.
+	* Makefile.am (ACLOCAL_AMFLAGS): New variable.
+	* configure.ac (AC_CONFIG_FILES): Add po/Makefile.in.
+	(AM_GNU_GETTEXT_VERSION): Bump to 0.21.
+
+2008-03-27  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.am (ACLOCAL_AMFLAGS): New variable.
+	(EXTRA_DIST): Add m4/ChangeLog.
+	* configure.ac (AM_GNU_GETTEXT_VERSION): Bump to 0.17.
+
+2006-11-04  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.am (SUBDIRS): Add po.
+	(ACLOCAL_AMFLAGS): New variable.
+	(EXTRA_DIST): Add scripts/config.rpath, scripts/mkinstalldirs, m4/ChangeLog.
+	* configure.ac (AC_CONFIG_FILES): Add po/Makefile.in.
+
